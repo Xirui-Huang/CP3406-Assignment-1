@@ -14,16 +14,11 @@ class MainActivity : AppCompatActivity() {
 
         // Sample data for ListView
         val bookList = listOf(
-            BookItem("Book 1", "Sub Item 1", R.drawable.book1),
-            BookItem("Book 2", "Sub Item 2", R.drawable.book2),
-            BookItem("Book 3", "Sub Item 3", R.drawable.book3),
-            BookItem("Book 4", "Sub Item 4", R.drawable.book1),
-            BookItem("Book 5", "Sub Item 5", R.drawable.book2),
-            BookItem("Book 6", "Sub Item 6", R.drawable.book3),
-            BookItem("Book 7", "Sub Item 7", R.drawable.book1),
-            BookItem("Book 8", "Sub Item 8", R.drawable.book2),
-            BookItem("Book 9", "Sub Item 9", R.drawable.book3),
-            BookItem("Book 10", "Sub Item 10", R.drawable.book1)
+            BookItem("The Count Of Monte Cristo", "Alexandre Dumas", R.drawable.book1),
+            BookItem("The Hunger Games", "Suzanne Collins", R.drawable.book2),
+            BookItem("The Great Gatsby", "Francis Scott Key Fitzgerald", R.drawable.book3),
+            BookItem("Harry Potter", "J. K. Rowling", R.drawable.book4),
+
         )
 
         // Set up the adapter

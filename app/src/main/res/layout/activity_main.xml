@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10px"
 
-        android:text="ADD BOOK"
+        android:text="Add Book"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,7 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="10px"
-        android:text="VIEW RECOMMENDATIONS"
+        android:text="View Recommendations"
         app:layout_constraintTop_toBottomOf="@id/btnAddBook"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
